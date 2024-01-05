@@ -1,0 +1,28 @@
+.button {
+    width: 50px; /* Adjust the width according to your design */
+    height: 50px; /* Adjust the height according to your design */
+    margin: 5px; /* Adjust the margin to provide space between buttons */
+    display: inline-block;
+    text-align: center;
+    line-height: 50px; /* Center the text vertically */
+    font-size: 16px; /* Adjust the font size */
+    border: 1px solid #000; /* Add a border for better visibility */
+    cursor: pointer; /* Set cursor to pointer to indicate clickability */
+}
+
+.button:hover {
+    background-color: #181a18;
+    color:#ffffff}
+
+.button:active {
+  background-color: #8a948b;
+}
+
+#display {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
